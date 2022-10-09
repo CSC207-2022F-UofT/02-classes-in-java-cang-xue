@@ -168,7 +168,9 @@ public class Silly implements Comparable<Silly>{
         if(this.name.equals(other.name)){
             return true;
         }
-
+        else{
+            return false;
+        }
     }
 
     /**
